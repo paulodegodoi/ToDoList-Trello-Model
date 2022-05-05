@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do List</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>TO DO LIST</h1>
+        <div class="list-container">
+            <div class="list-content">
+                <h2>To Do</h2>
+                <div class="list-items" list-dropzone>Arraste até aqui</div>
+                <div class="addList-container">
+                    <button id="add-list" onclick="addNewList()">+</button>
+                    <input id="titleToDo" type="text" placeholder="Task Name" />
+                </div>
+            </div>
+            <div class="list-content">
+                <h2>Doing</h2>
+                <div class="list-items" list-dropzone>Arraste até aqui</div>
+            </div>
+            <div class="list-content">
+                <h2>Done</h2>
+                <div class="list-items" list-dropzone>Arraste até aqui</div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
